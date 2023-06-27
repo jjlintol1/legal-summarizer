@@ -1,0 +1,142 @@
+.section-padding {
+  padding: 4rem 6rem;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-title {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 82px;
+  line-height: 96px;
+  /* identical to box height, or 117% */
+
+  text-transform: capitalize;
+}
+
+.h2-title {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 74px;
+  /* identical to box height, or 119% */
+
+  text-transform: capitalize;
+}
+
+.h3-title {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 50px;
+  /* identical to box height, or 114% */
+
+  text-transform: capitalize;
+}
+
+.h4-title {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 38px;
+  /* identical to box height, or 146% */
+
+  text-transform: capitalize;
+}
+
+.h5-title {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height, or 118% */
+
+  text-transform: capitalize;
+}
+
+.h6-title {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.bodytext-18 {
+  font-family: var(--font-alt);
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  text-transform: capitalize;
+}
+
+.bodytext-16 {
+  font-family: var(--font-alt);
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+}
+
+@media screen and (max-width: 400px) {
+  
+}
+
+@media screen and (max-width: 850px) {
+  .section-padding {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section-padding {
+    padding: 4rem 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .h1-title {
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 56px;
+  }
+
+  .h2-title {
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 44px;
+  }
+
+  .h3-title {
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 30px;
+  }
+
+  .h4-title {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+  }
+
+  .h5-title {
+      font-size: 14px;
+      line-height: 16px;
+  }
+
+  .h6-title {
+      font-size: 14px;
+      line-height: 16px;
+  }
+}

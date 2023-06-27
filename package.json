@@ -1,0 +1,20 @@
+{
+  "name": "legalproj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-server": "npm install --prefix backend",
+    "install-client": "npm install --prefix frontend",
+    "server": "npm run watch --prefix backend",
+    "server-static": "npm run start --prefix backend",
+    "client": "npm start --prefix frontend",
+    "static": "npm run server-static & npm run client",
+    "watch": "npm run server & npm run client",
+    "deploy": "npm run build --prefix frontend && npm start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
