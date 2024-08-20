@@ -1,16 +1,45 @@
-# Legal Summarizer
+# Legalyzer - automatic summarization of Terms & Conditions
 
-![License](https://img.shields.io/badge/license-MIT-blue)
+## 📖 Table of Contents
 
-Legal Summarizer is a full-stack MERN application that utilizes the power of the GPT-3 API to automatically generate summaries of legal documents and end user license agreements. The application aims to simplify the process of reading and understanding lengthy legal texts by providing concise and accurate summaries.
+- [Introduction](#introduction)
+- [Tech Stack](#tech-stack)
+- [Features](#features)
+- [How to Test](#how-to-test)
+- [Ways to Improve Application](#ways-to-improve-application)
 
-## Features
+## 🏦 Introduction 
 
-- Automatic summarization of legal documents using GPT-3.
-- User-friendly web interface for easy interaction.
-- Ability to ask questions about previously saved legal documents.
-- Responsive design for seamless user experience on different devices.
-- Just input the link to the legal document, the company and the type of document and GPT-3 will summarize it.
+Legalyzer is a full-stack MERN application that utilizes the power of the GPT-3 API to automatically generate summaries of legal documents and end user license agreements. The application aims to simplify the process of reading and understanding lengthy legal texts by providing concise and accurate summaries.
+
+## 🖥️ Tech Stack
+
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- OpenAI API
+- Material UI
+
+## ⚙️ Features
+
+- 🏦 **Connect multiple bank accounts:** Users can connect real banking data to the application to access their balance and recent transactions.
+- 💶 **Send money to users:** Users can send money to other users on the platform through Dwolla ACH transfers
+- 🖥️ **Real-time updates:** The app updates transaction data when a new bank account is connected and an ACH transfer is initiated.
+- 📱 **Fully mobile responsive:** The app is adaptable to many different screen sizes. Users will have a smooth experience on mobile, tablet, laptop and desktop devices.
+
+- 📃 **Summarize EULA and Legal Documents:** Automatic summarization of legal documents using GPT-3.
+- 💬 **Chat with your legal documents:** Ask questions about previously saved legal documents.
+- 📱 **Fully mobile responsive:** The app is adaptable to many different screen sizes. Users will have a smooth experience on mobile, tablet, laptop and desktop devices.
+- 😀 **Ease of use:** Just input the link to the legal document, the company and the type of document and GPT-3 will summarize it.
+
+## 💶 Ways to improve application
+
+Here are some potential future implementations/improvements to the application:
+
+- **Reconnect to OpenAI API and use latest GPT models:** Reconnect the application to OpenAI (previous key is expired) and integrate the latest GPT models.
+- **Incorporate LangChain:** Leverage the power of LangChain and vector embeddings for question answering on legal documents.
+
 
 - I was pursuing this project as a potential startup idea, but I decided that at the time I was building it, AI was not reliable enough yet to accurately summarize high-stakes documents such as legal documents on a consistent basis.
 
