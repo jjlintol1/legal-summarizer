@@ -7,7 +7,7 @@
 - [Features](#features)
 - [Ways to Improve Application](#ways-to-improve-application)
 
-## 🏦 Introduction 
+## 📖 Introduction 
 
 Legalyzer is a full-stack MERN application that utilizes the power of the GPT-3 API to automatically generate summaries of legal documents and end user license agreements. The application aims to simplify the process of reading and understanding lengthy legal texts by providing concise and accurate summaries.
 
@@ -22,17 +22,12 @@ Legalyzer is a full-stack MERN application that utilizes the power of the GPT-3 
 
 ## ⚙️ Features
 
-- 🏦 **Connect multiple bank accounts:** Users can connect real banking data to the application to access their balance and recent transactions.
-- 💶 **Send money to users:** Users can send money to other users on the platform through Dwolla ACH transfers
-- 🖥️ **Real-time updates:** The app updates transaction data when a new bank account is connected and an ACH transfer is initiated.
-- 📱 **Fully mobile responsive:** The app is adaptable to many different screen sizes. Users will have a smooth experience on mobile, tablet, laptop and desktop devices.
-
 - 📃 **Summarize EULA and Legal Documents:** Automatic summarization of legal documents using GPT-3.
 - 💬 **Chat with your legal documents:** Ask questions about previously saved legal documents.
 - 📱 **Fully mobile responsive:** The app is adaptable to many different screen sizes. Users will have a smooth experience on mobile, tablet, laptop and desktop devices.
 - 😀 **Ease of use:** Just input the link to the legal document, the company and the type of document and GPT-3 will summarize it.
 
-## 💶 Ways to improve application
+## 🖥️ Ways to improve application
 
 Here are some potential future implementations/improvements to the application:
 
